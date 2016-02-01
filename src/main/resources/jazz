@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -Dhttp.classpath='http://192.168.84.162/lib/ffmpeg-3.jar;http://192.168.84.162/lib/jcl-over-slf4j-1.6.1.jar;http://192.168.84.162/lib/log4j-1.2.17.jar;http://192.168.84.162/lib/slf4j-api-1.6.1.jar;http://192.168.84.162/lib/slf4j-log4j12-1.6.1.jar' -jar jazz.jar com.iflytek.test.Main
